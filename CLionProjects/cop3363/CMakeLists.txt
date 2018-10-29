@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.9)
+project(cop3363)
+
+set(CMAKE_CXX_STANDARD 11)
+
+add_executable(cop3363 krusty.cpp practice.cpp rand.gen.cpp dicegame.cpp arraysprac1.cpp arrays.cpp pointers.cpp stringfun.cpp ofstream.cpp ifstream.cpp grade.cpp ifstream_eof.cpp prog7.cpp)
+add_executable(krusty krusty.cpp)
+add_executable(practice practice.cpp)
+add_executable(rand.gen rand.gen.cpp)
+add_executable(dicegame dicegame.cpp)
+add_executable(arrays arrays.cpp)
+add_executable(stringfun stringfun.cpp)
+add_executable(iostream ofstream.cpp)
+add_executable(ifstream ifstream.cpp)
+add_executable(grade grade.cpp)
+add_executable(prog7 prog7.cpp)
+add_executable(Ordering1 Ordering1.cpp)

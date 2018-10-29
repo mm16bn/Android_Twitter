@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b6991ca7-a0bc-4e8f-be40-fb429918d3aa" name="linprog" url="http://ma@linprog3.cs.fsu.edu">
+        <fileTransfer host="ma@linprog3.cs.fsu.edu" port="22" rootFolder="/home/majors/ma" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,55 @@
+MATH CLASS
+
+Student Name                             Test Avg
+----------------------------------------------------------------
+Bugs
+Bunny                                  95.7     A
+Class Average   31.90HISTORY CLASS
+
+Student Name                             Test Avg
+----------------------------------------------------------------
+Joe
+Schmuckatelli                           84.90    B
+Class Average   60.20Student Grade Summary
+---------------------
+ENGLISH CLASS
+
+Student Name                             Test Avg
+----------------------------------------------------------------
+Marvin
+Dipwart                              86.50    B
+Class Average   89.03MATH CLASS
+
+Student Name                             Test Avg
+----------------------------------------------------------------
+Billy Joe Bob
+Phebus                        80.50    B
+Class Average   115.87Student Grade Summary
+---------------------
+ENGLISH CLASS
+
+Student Name                             Test Avg
+----------------------------------------------------------------
+Axelrod
+Polinski                            61.90    D
+Class Average   136.50HISTORY CLASS
+
+Student Name                             Test Avg
+----------------------------------------------------------------
+Monica
+Lewinsky                             58.80    F
+Class Average   156.10MATH CLASS
+
+Student Name                             Test Avg
+----------------------------------------------------------------
+Jimmy
+Crack Corn                            68.30    D
+Class Average   178.87Student Grade Summary
+---------------------
+ENGLISH CLASS
+
+Student Name                             Test Avg
+----------------------------------------------------------------
+James T.
+Kirk                               79.60    C
+Class Average   205.40

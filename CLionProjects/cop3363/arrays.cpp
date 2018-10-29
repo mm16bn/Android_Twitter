@@ -23,8 +23,8 @@ void Delete(int arr[], const int size, int index);
 void Reverse(int arr[], const int size);
 void Sort(int arr[], const int size);
 
-int Mean(int arr[], const int size);
-int Median(int arr[], const int size);
+double Mean(const int arr[], const int size);
+double Median(int arr[], const int size);
 
 
 int main()
@@ -74,7 +74,7 @@ int main()
     /*Loop that presents user with menu options and calls appropriate Array functions*/
 
     do {
-        cout << "\nEnter your menu selection: " << endl;
+        cout << "\nEnter your menu selection: ";
         cin >> MenuChoice;
 
         switch (MenuChoice) {
@@ -94,6 +94,8 @@ int main()
 
                 cout << "Enter value to insert: " << endl;
                 cin >> add;
+
+
                 cout << "Enter index at which to insert: " << endl;
                 cin >> index;
 
@@ -129,14 +131,15 @@ int main()
 
             case MEAN: {
                 cout << fixed << showpoint << setprecision(1);
-                Mean(arr, size);
+                cout << "The mean is: " << Mean(arr, size);
                 break;
             }
 
-//            case MEDIAN: {
-////                cout << fixed << showpoint << setprecision(1) << Median(arr, size);
-//                break;
-//            }
+            case MEDIAN: {
+                cout << fixed << showpoint << setprecision(1);
+                cout << "The median is: " << Median(arr, size);
+                break;
+            }
 
             case MENU: {
                 cout << "** Given features **\n" <<
@@ -156,82 +159,98 @@ int main()
                 break;
             }
 
+            case QUIT:
+            {break;}
+
             default:
-                cout << "nothing is happening!";
+                cout << "\nThat wasn't an option! Try again!";
                 break;
 
         }
 
     }while (MenuChoice != 'Q');
 
-
-//PrintArray();
-
+PrintArray(arr, size);
     return 0;
 }
 
-
-/* Add in the definitions of your own functions HERE */
+/* Definitions of Menu Functions: */
 
 /* Inserts numbers wherever you want! */
 void Insert(int arr[], const int size, int add, int index) {
+
 for(index; index < size; index++) {
-    int temp = arr[index];
+    int temp = arr[index];              //a temporary storage space used to swap two numbers in an array
     arr[index] = add;
     add = temp;
 }
 }
 
-/* Deletes the chosen one, then replaces last digit(s) with zero */
+/* Deletes the number at the index, then replaces last digit(s) with zero */
 void Delete(int arr[], const int size, int index)
 {
-for(index; index < size; index++)
-{
-arr[index] = arr[index + 1];
-    arr[size-1] = 0;
-}
+    int times = 0;                      //the number of times this function is called
+
+    for(index; index <= size - 1; index++)
+        {arr[index] = arr[index + 1];
+            cout << "else is happening\n";
+            if(index == size - 1)
+            {arr[index] = 0;
+                cout << "if is happening!\n";}
+        }
+
+    cout << "times is increasing\n";
+    times ++;
 }
 
 /* Prints the array backwards! */
 void Reverse(int arr[], int size) {
-    const int index = size - 1;
-    for(int i = 0; i < index/2; i++) {
+    for(int i = 0; i < (size - 1)/2; i++) {
         int temp = arr[i];
-        arr[i] = arr[index -  i];
-        arr[index - i] = temp;
+        arr[i] = arr[(size - 1) - i];
+        arr[(size - 1) - i] = temp;
     }
 }
 
 /* Sorts the array in ascending order */
 void Sort(int arr[], int size) {
-    for (int i = 0; i < size - 1; i++) {
-        int temp = arr[i];
-        arr[i] = arr[i + 1];
-        arr[i + 1] = temp;
-    }
+    bool sort;
+
+    do {sort = false;
+        for (int i = 0; i < size - 1; i++) {
+            if (arr[i] > arr[i + 1]) {
+                int temp = arr[i];
+                arr[i] = arr[i + 1];
+                arr[i + 1] = temp;
+                sort = true;
+            }
+        }
+    } while (sort);
 }
 
 /* Calculates the average of all numbers in array */
-int Mean(int arr[], int size)
-{
-    int sum = 0;
-    int average;
-    for(int i = 0; i < size - 1; i++)
-    {
+double Mean(const int arr[], int size) {
+    double sum = 0;                     //the sum of all numbers in the array
+    double average;                     //the calculated mean of all numbers
+    for (int i = 0; i < size; i++) {
         sum = sum + arr[i];
-        average = sum / size;
-        return average;
     }
+    average = sum / size;
+    return average;
 }
 
-//int Median(int arr[], int size)
-//{
-//
-//}
-//
-
-
-
+/* Finds or calculates the median of the series */
+double Median(int arr[], int size)
+{
+    if(size%2==0)
+{
+    int list[2] = {arr[size/2-1], arr[size/2]};
+    return Mean(list, 2);
+}
+    else{
+    return arr[size/2];
+}
+}
 
 /* Definitions of PrintArray and FillArray below DO NOT CHANGE THESE!*/
 
@@ -250,6 +269,7 @@ void PrintArray(const int arr[], const int size)
 //Allows the user to enter data into any integer array of any size.
 void FillArray(int arr[], const int size)
 {
+
     cout << "Please enter " << size
          << " integers to load into the array\n> ";
 

@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/fulluser/CLionProjects/COP3330/Playlist/menu.cpp
+iostream
+-
+iomanip
+-
+cstring
+-
+cctype
+-
+playlist.h
+/Users/fulluser/CLionProjects/COP3330/Playlist/playlist.h
+song.h
+/Users/fulluser/CLionProjects/COP3330/Playlist/song.h
+
+/Users/fulluser/CLionProjects/COP3330/Playlist/playlist.h
+iostream
+-
+song.h
+/Users/fulluser/CLionProjects/COP3330/Playlist/song.h
+
+/Users/fulluser/CLionProjects/COP3330/Playlist/song.h
+iostream
+-
+

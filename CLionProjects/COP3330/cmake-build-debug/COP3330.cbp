@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="COP3330"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/fulluser/CLionProjects/COP3330/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="playlist">
+				<Option output="/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/playlist" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/fulluser/CLionProjects/COP3330/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/Makefile&quot;  VERBOSE=1 playlist"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="playlist/fast">
+				<Option output="/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/playlist" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/fulluser/CLionProjects/COP3330/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/Makefile&quot;  VERBOSE=1 playlist/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="song">
+				<Option output="/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/song" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/fulluser/CLionProjects/COP3330/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/Makefile&quot;  VERBOSE=1 song"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="song/fast">
+				<Option output="/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/song" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/fulluser/CLionProjects/COP3330/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/Makefile&quot;  VERBOSE=1 song/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="menu">
+				<Option output="/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/menu" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/fulluser/CLionProjects/COP3330/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/Makefile&quot;  VERBOSE=1 menu"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="menu/fast">
+				<Option output="/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/menu" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/fulluser/CLionProjects/COP3330/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/Makefile&quot;  VERBOSE=1 menu/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/fulluser/CLionProjects/COP3330/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="distance">
+				<Option output="/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/distance" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/fulluser/CLionProjects/COP3330/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/Makefile&quot;  VERBOSE=1 distance"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="distance/fast">
+				<Option output="/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/distance" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/fulluser/CLionProjects/COP3330/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/Makefile&quot;  VERBOSE=1 distance/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/fulluser/CLionProjects/COP3330/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/fulluser/CLionProjects/COP3330/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/fulluser/CLionProjects/COP3330/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="COP3330">
+				<Option output="/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/COP3330" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/fulluser/CLionProjects/COP3330/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/Makefile&quot;  VERBOSE=1 COP3330"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="COP3330/fast">
+				<Option output="/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/COP3330" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/fulluser/CLionProjects/COP3330/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/Makefile&quot;  VERBOSE=1 COP3330/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/fulluser/CLionProjects/COP3330/Diamonds/diamond.cpp">
+			<Option target="COP3330"/>
+		</Unit>
+		<Unit filename="/Users/fulluser/CLionProjects/COP3330/Diamonds/diamond.h">
+			<Option target="COP3330"/>
+		</Unit>
+		<Unit filename="/Users/fulluser/CLionProjects/COP3330/Diamonds/main.cpp">
+			<Option target="COP3330"/>
+		</Unit>
+		<Unit filename="/Users/fulluser/CLionProjects/COP3330/Playlist/menu.cpp">
+			<Option target="menu"/>
+			<Option target="COP3330"/>
+		</Unit>
+		<Unit filename="/Users/fulluser/CLionProjects/COP3330/Playlist/playlist.cpp">
+			<Option target="playlist"/>
+			<Option target="COP3330"/>
+		</Unit>
+		<Unit filename="/Users/fulluser/CLionProjects/COP3330/Playlist/playlist.h">
+			<Option target="COP3330"/>
+		</Unit>
+		<Unit filename="/Users/fulluser/CLionProjects/COP3330/Playlist/song.cpp">
+			<Option target="song"/>
+			<Option target="COP3330"/>
+		</Unit>
+		<Unit filename="/Users/fulluser/CLionProjects/COP3330/Playlist/song.h">
+			<Option target="COP3330"/>
+		</Unit>
+		<Unit filename="/Users/fulluser/CLionProjects/COP3330/distance/distance.cpp">
+			<Option target="distance"/>
+			<Option target="COP3330"/>
+		</Unit>
+		<Unit filename="/Users/fulluser/CLionProjects/COP3330/distance/distance.h">
+			<Option target="COP3330"/>
+		</Unit>
+		<Unit filename="/Users/fulluser/CLionProjects/COP3330/distance/main.cpp">
+			<Option target="COP3330"/>
+		</Unit>
+		<Unit filename="/Users/fulluser/CLionProjects/COP3330/distance/main.h">
+			<Option target="COP3330"/>
+		</Unit>
+		<Unit filename="/Users/fulluser/CLionProjects/COP3330/temperature/Temperature.cpp">
+			<Option target="COP3330"/>
+		</Unit>
+		<Unit filename="/Users/fulluser/CLionProjects/COP3330/temperature/Temperature.h">
+			<Option target="COP3330"/>
+		</Unit>
+		<Unit filename="/Users/fulluser/CLionProjects/COP3330/temperature/main.cpp">
+			<Option target="main"/>
+			<Option target="COP3330"/>
+		</Unit>
+		<Unit filename="/Users/fulluser/CLionProjects/COP3330/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
