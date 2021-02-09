@@ -1,8 +1,0 @@
-/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/CMakeFiles/playlist.dir
-/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/CMakeFiles/song.dir
-/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/CMakeFiles/menu.dir
-/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/CMakeFiles/distance.dir
-/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/CMakeFiles/main.dir
-/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/fulluser/CLionProjects/COP3330/cmake-build-debug/CMakeFiles/COP3330.dir
